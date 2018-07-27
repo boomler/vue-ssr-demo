@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build:03": "npx webpack --config ssr03/build/server-build.js",
+    "build:03:client": "npx webpack --config ssr03/build/client-build.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "parcel": "^1.9.7",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-loader": "^15.2.6",
+    "vue-router": "^3.0.1",
+    "vue-server-renderer": "^2.5.16",
+    "webpack": "^4.16.2",
+    "webpack-merge": "^4.1.3",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack-cli": "^3.1.0"
+  }
+}
